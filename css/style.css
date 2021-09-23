@@ -1,0 +1,31 @@
+*,
+::before,
+::after {
+  box-sizing: border-box;
+}
+
+.wrapper {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+/* Слайдер */
+
+.slider-container {
+  overflow: hidden;
+  margin-top: 100px;
+}
+.slider-track {
+  display: flex;
+  transition: 0.2s;
+}
+.slider-item {
+  min-width: 400px;
+  height: 300px;
+  border: solid 5px white;
+}
+
+.buttons {
+  text-align: center;
+  margin-top: 15px;
+}
